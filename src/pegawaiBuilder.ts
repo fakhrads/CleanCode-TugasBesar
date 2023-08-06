@@ -1,4 +1,6 @@
-import Pegawai from "./Pegawai";
+// pegawaiBuilder.ts (File: pegawaiBuilder.ts)
+
+import Pegawai from './pegawai';
 
 class PegawaiBuilder {
   private nama: string;
@@ -8,6 +10,7 @@ class PegawaiBuilder {
   private telepon: string;
 
   constructor() {
+    // Inisialisasi nilai default atau gunakan parameter opsional sesuai kebutuhan
     this.nama = '';
     this.username = '';
     this.password = '';
